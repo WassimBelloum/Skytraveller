@@ -2,7 +2,8 @@
 Welkom bij de code van Skytraveller!
 We hebben hier alle php van onze interactieve website geplaatst. Alle files met php erachter is de code voor de webapplicatie.
 Er is een file met .sql, dat is de database. Die kan geopend worden door het programma XAMPP. We hebben gewerkt met XAMPP v7.3.27. 
-Hier is ook de link: https://www.apachefriends.org/download.html.
+Hier is ook de link: https://www.apachefriends.org/download.html. 
+Om de file in XAMPP te openen moet je de gedownloade file in PhpMyAdmin het des betreffende database importeren.
 
 Om de php te laten werken moet de php in het mapje htdocs worden gezet. Zodat het kan worden uitgevoerd op de localhost.
 
