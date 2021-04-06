@@ -1,0 +1,180 @@
+body {
+	font-family: Trade Gothic LT Std Bold, Arial, sans serif;
+	background-color: #444;
+	margin: 0px;
+}
+
+p {
+	color: white;
+}
+
+#container {
+	background-color: #333;
+}
+
+#content {
+	margin: 20px 300px;
+}
+
+#head {
+	height: 160px;
+}
+
+#header {
+	height: 100px;
+	background-color: #eb9b34;
+	font-size: 30px;
+}
+
+#navigation {
+	font-size: 20px;
+}
+
+#booking {
+	float: left;
+	width: 220px;
+	text-align: center;
+}
+
+#account {
+	float: right;
+	width: 150px;
+	text-align: center;
+}
+
+#navigation {
+	height: 100px;
+}
+
+#verblijven, #vluchten, #autoverhuur {
+	float: left;
+	background-color: #ebb167;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #e8c599;
+	width: 33%;
+	text-align: center;
+}
+
+#verblijven:hover, #vluchten:hover, #autoverhuur:hover {
+	background-color: #e8c599;
+}
+
+#covid {
+	padding: 0 18px;
+	background-color: #e8c599;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.collapsible, .collapsiblecovid {
+	background-color: #ebb167;
+	width: 100%;
+	font-family: Trade Gothic LT Std Bold, Arial, sans serif;
+	color: white;
+	border: none;
+	font-size: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.collapsible:hover, .collapsiblecovid:hover {
+	background-color: #e8c599;
+}
+
+#filter {
+	padding: 0 18px;
+	background-color: #e8c599;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #eb9b34;
+}
+
+#filtertotaal {
+	margin-top: 10px;
+}
+
+ul {
+	color: white;
+	padding-inline-start: 30px;
+}
+
+dt, dd {
+	color: white;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+dt {
+	font-size: 16px;
+}
+
+dd {
+	padding-bottom: 20px;
+}
+
+#grotereText {
+	font-size: 20px;
+}
+
+#login {
+	background-color: #ebb167;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border-color: #e8c599;
+	margin: 30px 300px;
+	overflow: auto;
+}
+
+input {
+	background-color: #e8c599;
+	color: white;
+	border-color: #e8c599;
+}
+
+#button {
+	background-color: #ebb167;
+	color: white;
+}
+
+#radio {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+label {
+	color: white;
+}
+
+#flight {
+    background-color: #ebb167;
+    width: 40%;
+    margin: 50px;
+    padding: 20px;
+    text-align: left;
+    float: left;
+}
+
+#title {
+    font-size: 28px;
+}
+
+.boekbutton {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
